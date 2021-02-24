@@ -11,10 +11,17 @@ body {
 }
 
 .header {
-  text-align: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .title {
+  font-family: "Akaya Telivigala", cursive;
+  color: black;
   text-transform: uppercase;
   text-decoration: none;
   cursor: pointer;
@@ -24,6 +31,10 @@ body {
   border-bottom: 2px solid black;
 }
 
+.subTitle {
+  font-family: "Akaya Telivigala", cursive;
+  font-size: 20px;
+}
 .continer__mov {
   display: flex;
   flex-direction: row;
@@ -35,7 +46,7 @@ body {
 }
 
 .flowerOne {
-  margin-top: 50px;
+  margin-top: 90px;
   height: 180px;
   width: 100%;
   background-image: url("../images/floress.png");
@@ -50,13 +61,13 @@ body {
 
 .flowerThree {
   margin: 150px 0;
-  height: 300px;
+  height: 250px;
   width: 100%;
   background-image: url("../images/flores.png");
 }
 
 .flowerFour {
-  margin: 500px 0;
+  margin: 520px 0;
   height: 180px;
   width: 100%;
   background-image: url("../images/flores.webp");
