@@ -1,3 +1,5 @@
+"use strict";
+
 // funcion para modificar las imagenes
 function parallax() {
   flowerOne.style.top = -(pageYOffset / 20) + "px";
