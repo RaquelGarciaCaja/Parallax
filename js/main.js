@@ -1,4 +1,6 @@
 "use strict";
+// listener a la pantlla al inicializar
+window.addEventListener("load", start);
 
 // funcion para modificar las imagenes
 function parallax() {
@@ -15,6 +17,3 @@ function start() {
 
 // listener que llama a la funcion parallax, donde se cambia el style
 window.addEventListener("scroll", parallax);
-
-// listener a la pantlla al inicializar
-window.addEventListener("load", start);
